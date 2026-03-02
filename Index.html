@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Veille 5 - Bases de Données</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Veille 5 : Les Bases de Données</h1>
+</header>
+
+<section>
+    <h2>Introduction</h2>
+    <p>
+        Les bases de données jouent un rôle central dans le fonctionnement des applications modernes.
+        Elles permettent de stocker, organiser et gérer de grandes quantités d'informations
+        de manière structurée et sécurisée.
+    </p>
+    <p>
+        Cette veille présente l’évolution des bases de données, leur utilité,
+        leurs particularités, leurs différences, ainsi que les bonnes pratiques
+        pour les utiliser efficacement.
+    </p>
+</section>
+
+<section>
+    <h2>1. Évolution des bases de données</h2>
+    <p>
+        Au départ, les données étaient stockées dans des fichiers simples.
+        Cette méthode posait des problèmes de duplication, de sécurité et de performance.
+    </p>
+    <p>
+        Ensuite sont apparues les bases de données relationnelles dans les années 1970,
+        basées sur le modèle relationnel d’Edgar F. Codd.
+        Elles utilisent des tables reliées entre elles.
+    </p>
+    <p>
+        Avec l’explosion d’Internet et du Big Data,
+        les bases de données NoSQL sont apparues pour gérer des volumes
+        massifs de données non structurées.
+    </p>
+</section>
+
+<section>
+    <h2>2. Utilité des bases de données</h2>
+    <ul>
+        <li>Stocker des informations utilisateurs</li>
+        <li>Gérer les transactions (banque, e-commerce)</li>
+        <li>Analyser des données statistiques</li>
+        <li>Assurer la sécurité et l'intégrité des données</li>
+        <li>Optimiser les performances des applications</li>
+    </ul>
+    <p>
+        Sans base de données, les applications modernes ne pourraient pas fonctionner correctement.
+    </p>
+</section>
+
+<section>
+    <h2>3. Les bases de données relationnelles</h2>
+
+    <h3>MySQL</h3>
+    <p>
+        MySQL est une base de données relationnelle très utilisée.
+        Elle organise les données sous forme de tables reliées par des clés.
+        Elle utilise le langage SQL.
+    </p>
+    <p>
+        Elle est adaptée aux applications web, aux sites e-commerce
+        et aux systèmes de gestion.
+    </p>
+
+    <h3>SQLite</h3>
+    <p>
+        SQLite est une base de données légère intégrée directement
+        dans les applications mobiles ou embarquées.
+        Elle ne nécessite pas de serveur.
+    </p>
+</section>
+
+<section>
+    <h2>4. Les bases de données NoSQL</h2>
+
+    <h3>MongoDB</h3>
+    <p>
+        MongoDB est une base NoSQL orientée documents.
+        Les données sont stockées sous forme de documents JSON.
+    </p>
+    <p>
+        Elle est adaptée aux applications nécessitant
+        une grande flexibilité et un volume important de données.
+    </p>
+</section>
+
+<section>
+    <h2>5. Différences principales</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Critère</th>
+            <th>MySQL</th>
+            <th>SQLite</th>
+            <th>MongoDB</th>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>Relationnelle</td>
+            <td>Relationnelle</td>
+            <td>NoSQL</td>
+        </tr>
+        <tr>
+            <td>Structure</td>
+            <td>Tables</td>
+            <td>Tables</td>
+            <td>Documents</td>
+        </tr>
+        <tr>
+            <td>Serveur requis</td>
+            <td>Oui</td>
+            <td>Non</td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>Flexibilité</td>
+            <td>Moyenne</td>
+            <td>Faible</td>
+            <td>Élevée</td>
+        </tr>
+    </table>
+
+</section>
+
+<section>
+    <h2>6. Comment utiliser une base de données convenablement</h2>
+
+    <p><strong>1. Choisir la bonne base :</strong></p>
+    <ul>
+        <li>Application mobile simple → SQLite</li>
+        <li>Site web structuré → MySQL</li>
+        <li>Application Big Data → MongoDB</li>
+    </ul>
+
+    <p><strong>2. Normaliser les données :</strong></p>
+    <p>
+        Éviter les duplications pour améliorer la cohérence.
+    </p>
+
+    <p><strong>3. Sécuriser les données :</strong></p>
+    <p>
+        Utiliser des mots de passe forts, limiter les accès,
+        protéger contre les injections SQL.
+    </p>
+
+    <p><strong>4. Sauvegarder régulièrement :</strong></p>
+    <p>
+        Mettre en place un système de sauvegarde automatique.
+    </p>
+
+</section>
+
+<section>
+    <h2>7. Conclusion</h2>
+    <p>
+        Les bases de données sont indispensables au développement moderne.
+        Le choix dépend du type de projet, du volume de données
+        et des besoins en performance.
+    </p>
+    <p>
+        Une bonne maîtrise des bases de données est essentielle
+        pour tout développeur backend.
+    </p>
+</section>
+
+<footer>
+    Réalisé par Soho Dedisson
+
+</footer>
+
+</body>
+</html>
